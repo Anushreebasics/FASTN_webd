@@ -12,29 +12,33 @@ background.solid:hsl(273, 75%, 66%)
 
 
 
+
 -- ftd.column:
 border-radius.px: 15
-width.fixed.px: 780
+width.fixed.px: 880
 height.fixed.px: 400
 background.solid:white
-
 
 
 -- ftd.row:
 -- ftd.image:
 src: illustration-woman-online-desktop.svg
 width.fixed.px: 400
+padding-right.px: 50
 margin-top.px: 40
+
+
 
 
 
 -- ftd.column:
+spacing.fixed.px: 30
 margin-top.px: 40
+padding-left.px: 50
 -- ftd.text: FAQ
 width.fixed.px: 338 
+size.px: 20
 padding.px: 10
-border-color: black
-border-bottom-width.px: 2
 -- ftd.text: How many team members can I invite?
 -- ftd.text: What is the maximum file upload size?
 -- ftd.text: How do I reset my password
@@ -46,6 +50,7 @@ border-bottom-width.px: 2
 
 
 -- end: ftd.column
+
 
 -- end: ftd.row
 

@@ -1,9 +1,4 @@
--- ftd.column:
-padding.px:50
-background.solid:#eee
-width:fill-container
-height: fill-container
-align-content:top-center
+
 
 
 -- ftd.column:
@@ -19,17 +14,18 @@ background.solid:hsl(273, 75%, 66%)
 
 -- ftd.column:
 border-radius.px: 15
-width.fixed.px: 740
-height.fixed.px: 540
+width.fixed.px: 780
+height.fixed.px: 400
 background.solid:white
 
+
+
 -- ftd.row:
-
-
 -- ftd.image:
 src: illustration-woman-online-desktop.svg
-width.fixed.px: 350
-margin-top.px: 80
+width.fixed.px: 400
+margin-top.px: 40
+
 
 
 -- ftd.column:
@@ -40,30 +36,11 @@ padding.px: 10
 border-color: black
 border-bottom-width.px: 2
 -- ftd.text: How many team members can I invite?
-width.fixed.px: 338 
-padding.px: 10
-border-color: black
-border-bottom-width.px: 2
 -- ftd.text: What is the maximum file upload size?
-width.fixed.px: 338 
-padding.px: 10
-border-color: black
-border-bottom-width.px: 2
 -- ftd.text: How do I reset my password
-width.fixed.px: 338 
-padding.px: 10
-border-color: black
-border-bottom-width.px: 2
 -- ftd.text: Can I cancel my subscription?
-width.fixed.px: 338 
-padding.px: 10
-border-color: black
-border-bottom-width.px: 2
 -- ftd.text: Do you provide additional support?
-width.fixed.px: 338 
-padding.px: 10
-border-color: black
-border-bottom-width.px: 2
+
 
 
 
@@ -77,4 +54,4 @@ border-bottom-width.px: 2
 -- end: ftd.column
 -- end: ftd.column
 
--- end:ftd.column
+

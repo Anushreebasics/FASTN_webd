@@ -32,18 +32,77 @@ margin-top.px: 40
 
 
 -- ftd.column:
-spacing.fixed.px: 30
-margin-top.px: 40
+spacing.fixed.px: 10
+margin-top.px: 60
 padding-left.px: 50
 -- ftd.text: FAQ
+role: $responsive-typography
+style: bold
+color: hsl(237, 12%, 33%)
 width.fixed.px: 338 
-size.px: 20
-padding.px: 10
+padding-bottom.px: 10
+-- ftd.row:
+padding-bottom.px: 20
+border-bottom-width.px: 2
+border-color: hsl(240, 5%, 91%)
+spacing.fixed.px: 60
 -- ftd.text: How many team members can I invite?
+color: hsl(240, 6%, 50%)
+-- ftd.text: v
+style: bold
+color: hsl(14, 88%, 65%)
+-- end: ftd.row
+-- ftd.column:
+-- ftd.row:
+spacing.fixed.px: 65
 -- ftd.text: What is the maximum file upload size?
--- ftd.text: How do I reset my password
+style: bold
+color: hsl(237, 12%, 33%)
+-- ftd.text: ^
+style: bold
+color: hsl(14, 88%, 65%)
+-- end: ftd.row
+-- ftd.text: No more than 2GB. All files in your account must fit your alloted storage space.
+color: hsl(240, 6%, 50%)
+padding-top.px: 20
+padding-bottom.px: 20
+border-bottom-width.px: 2
+border-color: hsl(240, 5%, 91%)
+-- end: ftd.column
+-- ftd.row:
+padding-bottom.px: 20
+border-bottom-width.px: 2
+border-color: hsl(240, 5%, 91%)
+spacing.fixed.px: 132
+-- ftd.text: How do I reset my password?
+color: hsl(240, 6%, 50%)
+-- ftd.text: v
+style: bold
+color: hsl(14, 88%, 65%)
+-- end: ftd.row
+-- ftd.row:
+padding-bottom.px: 20
+border-bottom-width.px: 2
+border-color: hsl(240, 5%, 91%)
+spacing.fixed.px: 129
 -- ftd.text: Can I cancel my subscription?
--- ftd.text: Do you provide additional support?
+color: hsl(240, 6%, 50%)
+-- ftd.text: v
+style: bold
+color: hsl(14, 88%, 65%)
+-- end: ftd.row
+-- ftd.row:
+padding-bottom.px: 20
+border-bottom-width.px: 2
+border-color: hsl(240, 5%, 91%)
+spacing.fixed.px: 98
+-- ftd.text: Do you provide addtional support?
+color: hsl(240, 6%, 50%)
+-- ftd.text: v
+style: bold
+color: hsl(14, 88%, 65%)
+-- end: ftd.row
+
 
 
 

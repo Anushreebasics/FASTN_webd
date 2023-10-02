@@ -1,6 +1,36 @@
 
 
 
+-- ftd.type faq:
+size.px: 25
+weight: 400
+
+-- ftd.type dtype:
+color: hsl(228, 12%, 48%)
+size.px: 10
+letter-spacing.px: 3
+
+-- ftd.type dtype2:
+size.px: 20
+weight: 900
+
+-- ftd.type dtype3:
+size.px: 10
+
+-- ftd.type dtype4:
+size.px: 13
+
+-- ftd.type car:
+size.px: 11
+
+
+-- ftd.type deci1:
+size.px: 30
+weight: 300
+
+
+;; ------------------ FAQ COMPONENT---------------
+
 -- ftd.column:
 padding.px:40
 spacing.fixed.px:450
@@ -14,10 +44,13 @@ background.solid:hsl(273, 75%, 66%)
 
 
 -- ftd.column:
+margin-top.px: 40
+margin-bottom.px: 40
 border-radius.px: 15
 width.fixed.px: 880
 height.fixed.px: 400
 background.solid:white
+
 
 
 -- ftd.row:
@@ -31,31 +64,35 @@ margin-top.px: 40
 
 
 
+
+
 -- ftd.column:
 spacing.fixed.px: 10
 margin-top.px: 60
 padding-left.px: 50
 -- ftd.text: FAQ
-role: $responsive-typography
+role: $faq
 style: bold
-color: hsl(237, 12%, 33%)
-width.fixed.px: 338 
-padding-bottom.px: 10
 -- ftd.row:
-padding-bottom.px: 20
 border-bottom-width.px: 2
 border-color: hsl(240, 5%, 91%)
-spacing.fixed.px: 60
+spacing.fixed.px: 70
 -- ftd.text: How many team members can I invite?
+margin-top.px: 16
+margin-bottom.px: 10
+role: $dtype4
 color: hsl(240, 6%, 50%)
 -- ftd.text: v
+margin-top.px: 10
 style: bold
 color: hsl(14, 88%, 65%)
 -- end: ftd.row
 -- ftd.column:
 -- ftd.row:
-spacing.fixed.px: 65
+spacing.fixed.px: 75
 -- ftd.text: What is the maximum file upload size?
+margin-bottom.px: 10
+role: $dtype4
 style: bold
 color: hsl(237, 12%, 33%)
 -- ftd.text: ^
@@ -63,40 +100,42 @@ style: bold
 color: hsl(14, 88%, 65%)
 -- end: ftd.row
 -- ftd.text: No more than 2GB. All files in your account must fit your alloted storage space.
+role: $dtype4
 color: hsl(240, 6%, 50%)
-padding-top.px: 20
-padding-bottom.px: 20
 border-bottom-width.px: 2
 border-color: hsl(240, 5%, 91%)
 -- end: ftd.column
 -- ftd.row:
-padding-bottom.px: 20
-border-bottom-width.px: 2
-border-color: hsl(240, 5%, 91%)
-spacing.fixed.px: 132
--- ftd.text: How do I reset my password?
-color: hsl(240, 6%, 50%)
--- ftd.text: v
-style: bold
-color: hsl(14, 88%, 65%)
--- end: ftd.row
--- ftd.row:
-padding-bottom.px: 20
 border-bottom-width.px: 2
 border-color: hsl(240, 5%, 91%)
 spacing.fixed.px: 129
--- ftd.text: Can I cancel my subscription?
+-- ftd.text: How do I reset my password?
+margin-bottom.px: 10
+role: $dtype4
 color: hsl(240, 6%, 50%)
 -- ftd.text: v
 style: bold
 color: hsl(14, 88%, 65%)
 -- end: ftd.row
 -- ftd.row:
-padding-bottom.px: 20
 border-bottom-width.px: 2
 border-color: hsl(240, 5%, 91%)
-spacing.fixed.px: 98
+spacing.fixed.px: 127
+-- ftd.text: Can I cancel my subscription?
+margin-bottom.px: 10
+role: $dtype4
+color: hsl(240, 6%, 50%)
+-- ftd.text: v
+style: bold
+color: hsl(14, 88%, 65%)
+-- end: ftd.row
+-- ftd.row:
+border-bottom-width.px: 2
+border-color: hsl(240, 5%, 91%)
+spacing.fixed.px: 103
 -- ftd.text: Do you provide addtional support?
+margin-bottom.px: 10
+role: $dtype4
 color: hsl(240, 6%, 50%)
 -- ftd.text: v
 style: bold
@@ -119,3 +158,179 @@ color: hsl(14, 88%, 65%)
 -- end: ftd.column
 
 
+
+
+
+;; ------------------PRODUCT PREVIEW CARD COMPONENT---------------
+
+
+-- ftd.column:
+margin-top.px: 30
+padding.px:40
+spacing.fixed.px:450
+width: fill-container
+height: fill-container
+align-content:center
+background.solid: hsl(0, 0%, 90%)
+
+-- ftd.column:
+margin-top.px: 100
+margin-bottom.px: 100
+border-radius.px: 15
+width.fixed.px: 900
+height.fixed.px: 500
+background.solid: hsl(30, 38%, 92%)
+
+-- ftd.column:
+margin-top.px: 100
+margin-bottom.px: 100
+margin-left.px: 250
+margin-right.px: 250
+border-radius.px: 8
+width.fixed.px: 400
+height.fixed.px: 300
+background.solid: white
+
+-- ftd.row:
+-- ftd.image:
+src: image-product-desktop.jpg
+height.fixed.px: 300
+border-top-left-radius.px: 8
+border-bottom-left-radius.px: 8
+
+
+
+-- ftd.column:
+-- ftd.text: PERFUME
+role: $dtype
+color: hsl(228, 12%, 48%)
+margin-top.px: 30
+margin-left.px: 20
+-- ftd.text: Gabrielle
+role: $dtype2
+style: bold
+margin-top.px: 15
+margin-left.px: 20
+-- ftd.text: Essence Eau
+role: $dtype2
+style: bold
+margin-left.px: 20
+-- ftd.text: De Parfum
+style: bold
+role: $dtype2
+margin-left.px: 20
+-- ftd.text: A floral, solar and voluptuous 
+role: $dtype3
+style: regular
+color: hsl(228, 12%, 48%)
+margin-top.px: 15
+margin-left.px: 20
+-- ftd.text: interpretation composed by 
+role: $dtype3
+margin-left.px: 20
+margin-top.px: 2
+style: regular
+color: hsl(228, 12%, 48%)
+-- ftd.text: Olivier Polge, Perfumer-Creator 
+role: $dtype3
+margin-left.px: 20
+margin-top.px: 2
+style: regular
+color: hsl(228, 12%, 48%)
+-- ftd.text: for the House of CHANEL. 
+role: $dtype3
+margin-left.px: 20
+margin-top.px: 2
+style: regular
+color: hsl(228, 12%, 48%)
+-- ftd.row:
+margin-left.px: 20
+margin-top.px: 15
+margin-bottom.px: 15
+-- ftd.row:
+-- ftd.image:
+src: icons8-dollar-24.png
+width.fixed.px: 29
+margin-top.px: 3
+-- ftd.decimal: 149.99
+role: $deci1
+style: bold
+color:  hsl(158, 36%, 37%)
+-- end: ftd.row
+-- ftd.decimal: 169.99
+role: $dtype3
+style: strike
+margin-left.px: 10
+margin-top.px: 10
+color: hsl(228, 12%, 48%)
+-- end: ftd.row
+-- ftd.column:
+margin-left.px: 20
+margin-bottom.px: 10
+border-radius.px: 5
+width.fixed.px: 145
+height.fixed.px: 28
+background.solid: hsl(158, 36%, 37%)
+-- ftd.row:
+margin-left.px: 33
+margin-top.px: 8
+-- ftd.image:
+src: icon-cart.svg
+width.fixed.px: 10
+-- ftd.text: Add to Cart
+role: $car
+margin-left.px: 5
+color: white
+-- end: ftd.row
+-- end: ftd.column
+
+
+-- end: ftd.column
+-- end: ftd.row
+-- end: ftd.column
+
+-- end: ftd.column
+-- end: ftd.column
+
+;; --------------------- ORDER SUMMARY------------
+
+-- ftd.column:
+margin-top.px: 30
+padding.px:40
+spacing.fixed.px:450
+width: fill-container
+height: fill-container
+align-content:center
+background.solid: hsl(0, 0%, 100%)
+
+-- ftd.column:
+margin-top.px: 100
+margin-bottom.px: 100
+border-radius.px: 15
+width.fixed.px: 900
+height.fixed.px: 600
+background.solid: hsl(225, 100%, 94%)
+
+-- ftd.column:
+margin-top.px: 80
+margin-bottom.px: 80
+margin-left.px: 260
+margin-right.px: 260
+border-radius.px: 10
+width.fixed.px: 350
+height.fixed.px: 500
+background.solid: white
+
+-- ftd.column:
+-- ftd.image:
+src: illustration-hero.svg
+width.fixed.px: 350
+border-top-left-radius.px: 10
+border-top-right-radius.px: 10
+
+
+
+-- end: ftd.column
+-- end: ftd.column
+-- end: ftd.column
+-- end: ftd.column

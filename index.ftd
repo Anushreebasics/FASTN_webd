@@ -1,4 +1,12 @@
+-- ftd.shadow s:
+color: hsl(225, 100%, 94%)
+y-offset.px: 25
+blur.px: 25
 
+-- ftd.shadow s2:
+color: red
+y-offset.px: 25
+blur.px: 25
 
 
 -- ftd.type faq:
@@ -20,12 +28,19 @@ size.px: 10
 -- ftd.type dtype4:
 size.px: 13
 
+-- ftd.type dtype5:
+size.px: 16
+
 -- ftd.type car:
 size.px: 11
 
 
 -- ftd.type deci1:
 size.px: 30
+weight: 300
+
+-- ftd.type os:
+size.px: 23
 weight: 300
 
 
@@ -237,7 +252,7 @@ margin-left.px: 20
 margin-top.px: 2
 style: regular
 color: hsl(228, 12%, 48%)
--- ftd.text: for the House of CHANEL. 
+-- ftd.text: for the House of CHANEL
 role: $dtype3
 margin-left.px: 20
 margin-top.px: 2
@@ -307,26 +322,107 @@ background.solid: hsl(0, 0%, 100%)
 margin-top.px: 100
 margin-bottom.px: 100
 border-radius.px: 15
-width.fixed.px: 900
-height.fixed.px: 600
+width.fixed.px: 700
+height.fixed.px: 700
 background.solid: hsl(225, 100%, 94%)
 
 -- ftd.column:
 margin-top.px: 80
 margin-bottom.px: 80
-margin-left.px: 260
-margin-right.px: 260
-border-radius.px: 10
+margin-left.px: 175
+margin-right.px: 175
+border-radius.px: 18
 width.fixed.px: 350
-height.fixed.px: 500
+height.fixed.px: 540
 background.solid: white
 
 -- ftd.column:
 -- ftd.image:
 src: illustration-hero.svg
 width.fixed.px: 350
-border-top-left-radius.px: 10
-border-top-right-radius.px: 10
+border-top-left-radius.px: 18
+border-top-right-radius.px: 18
+-- ftd.text: Order Summary
+role: $os
+color: hsl(223, 47%, 23%)
+style: bold
+margin-left.px: 100
+margin-top.px: 36
+-- ftd.text: You can now listen to millions of songs, 
+role: $dtype4
+color: hsl(224, 23%, 55%)
+margin-left.px: 70
+margin-top.px: 15
+-- ftd.text: audiobooks, and podcasts on any device 
+role: $dtype4
+color: hsl(224, 23%, 55%)
+margin-left.px: 70
+margin-top.px: 3
+-- ftd.text: anywhere you like!
+role: $dtype4
+color: hsl(224, 23%, 55%)
+margin-left.px: 120
+margin-top.px: 3
+-- ftd.column:
+margin-left.px: 35
+margin-bottom.px: 10
+margin-top.px: 26
+border-radius.px: 8
+width.fixed.px: 280
+height.fixed.px: 70
+background.solid: hsl(225, 100%, 98%)
+-- ftd.row:
+margin-top.px: 17
+margin-left.px: 15
+-- ftd.image:
+src: icon-music.svg
+width.fixed.px: 35
+-- ftd.column:
+margin-left.px: 15
+-- ftd.text: Annual Plan
+role: $dtype5
+color: hsl(223, 47%, 23%)
+style: bold
+-- ftd.row:
+margin-top.px: 3
+-- ftd.decimal: 59.99
+role: $dtype4
+color: hsl(224, 23%, 55%)
+-- ftd.text: /year
+role: $dtype4
+color: hsl(224, 23%, 55%)
+-- end: ftd.row
+-- end: ftd.column
+-- ftd.text: Change
+role: $dtype4
+style: underline
+color: hsl(245, 75%, 52%)
+margin-left.px: 60
+margin-top.px: 8
+-- end: ftd.row
+-- end: ftd.column
+-- ftd.column:
+shadow: $s
+margin-left.px: 35
+margin-bottom.px: 10
+margin-top.px: 26
+border-radius.px: 10
+width.fixed.px: 280
+height.fixed.px: 40
+background.solid: hsl(245, 75%, 52%)
+-- ftd.text: Proceed to Payment
+margin-top.px: 12
+margin-left.px: 90
+role: $dtype4
+color: white
+style: bold
+-- end: ftd.column
+-- ftd.text: Cancel Order
+role: $dtype4
+margin-left.px: 135
+margin-top.px: 10
+color: hsl(224, 23%, 55%)
+style: bold
 
 
 
